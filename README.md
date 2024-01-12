@@ -15,7 +15,7 @@ The project is aimed at using client and transactional data to classify whether 
 + Features Encoding and
 + Cross-validation.
 
-This project involved an in-depth understanding of the dataset provided which invloved the domain-level understanding of the features and their relationships. It made use of memeory reduction techniques to reduce the data size so that it could efficiently run under the avaialble memory resource. Data preprocessing  began by the application of time-series analysis on the data which saw the time column properly trnasformed into the datetime format and the relevant time features extarcted. Aggregations of the features were performed to describe the relationships between the features and the categorical columns were encoded using features encoding techniques like: label encoding and one-hot encoding. These problem resolutions led to the training and validation of the model.
+This project involved an in-depth understanding of the dataset provided which invloved the domain-level understanding of the features and their relationships. It made use of memeory reduction techniques to reduce the data size so that it could efficiently run under the avaialble memory resource. Data preprocessing  began by the application of time-series analysis on the data which saw the time column properly trnasformed into the datetime format and the relevant time features extarcted. Aggregations of the features were performed to describe the relationships between the features and the categorical columns were encoded using features encoding techniques like: label encoding and one-hot encoding. These problems resolutions led to the training and validation of the model.
 
 ## Solution Overview
 ### Data preparation & preprocessing
