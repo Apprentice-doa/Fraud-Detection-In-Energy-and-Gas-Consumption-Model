@@ -46,6 +46,6 @@ The key features and functionalities used in this solution include:
 + Kaggle Notebook Kernel
 
 ### Result
-The model performed a 0.897242578 AUC_ROC score on the public leader board and 0.897602932 AUC_ROC score on the private leaderboard. This result place me 3rd postion on the leaderboard.
+The model performed a 0.897242578 AUC_ROC score on the public leader board and 0.897602932 AUC_ROC score on the private leaderboard. This result placed me 3rd postion on the leaderboard.
 
 Link to the Leaderboard standings: https://zindi.africa/competitions/indabax-nigeria-23/leaderboard
