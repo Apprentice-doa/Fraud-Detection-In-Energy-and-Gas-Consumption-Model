@@ -8,7 +8,7 @@ The project will enhance the company’s revenues and reduce the losses caused b
 ### N.B: This is a winning solution to the IndabaX Nigeria 2023 hackathon.
 
 ## Problem Statement
-The project aimed at using client and transactional data to classify whether a client is involved in fraudulent transaction. Through the application of advanced Machinel Learning and programming Techniques like: 
+The project is aimed at using client and transactional data to classify whether a client is involved in fraudulent transaction. Through the application of advanced Machinel Learning and programming Techniques like: 
 + Data Memory Reduction
 + Time Series Analysis
 + Features Engineering using Aggregations
