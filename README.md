@@ -28,3 +28,24 @@ Data Aggregation techniques was performed on the dataset using arithmetic operat
 Label encoding and One-Hot encoding were used encode the categorical features for proper representation of the features to the model. Duplicate data were then dropped and missing values were filled using the median value. It was noticed that the choice of median for filling the missing values gave the model eval score a significant boost than the mean value.
 
 ### Model Trainig, Validation and Evaluation
+The choice of LGBM (Light Gradient boosting machine) as the model was significant due to the sheer size of the model. lgbm is known to be light weight and could  train fastwr without a compromise in accuracy. The model was trained on a portion of the dataset and cross-validated using stratified K-fold CV. The feature importance was cheked and the model with low feature importance i.e == 0 were dropped. Because the evalutaion metric used was AUC_ROC, the model predicted the probabilites between 0-1 for a client to be fraudulent.
+
+## Features
+The key features and functionalities used in this solution include:
++ Data Augmentation
++ Parameter Tuning 
++ Setting the right number of splits
++ Using the right cross validation to tackle the issue of data imbalance
+
+## Technologies Used
++ Python programming language
++ 2 T4 NVIDIA GPUs
++ Pandas
++ Scikit-learn
++ LGBM
++ Kaggle Notebook Kernel
+
+### Result
+The model performed a 0.897242578 AUC_ROC score on the public leader board and 0.897602932 AUC_ROC score on the private leaderboard. This result place me 3rd postion on the leaderboard.
+
+Link to the Leaderboard standings: https://zindi.africa/competitions/indabax-nigeria-23/leaderboard
